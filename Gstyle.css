@@ -1,0 +1,399 @@
+*{
+    margin: 0;
+    padding: 0;
+  }
+
+  #more {
+    display: none;
+  }
+
+  h1:hover {
+    color: #CC313D;
+  }
+  span {
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+  .overlay {
+    position: absolute;
+    left: 1090px;
+    top: 50px;
+    bottom: 0;
+    background-color: #2F2726;
+    box-shadow: 0px 6px 4px rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+    width: 50px;
+    height: 80px;
+    transition: .5s ease;
+    opacity:0;
+    padding: 20px;
+    z-index: 2;
+
+    text-align: center;
+  }
+
+  .About_Team{
+    color: white;
+    font-family: Google Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+  }
+
+  .About_TUP{
+    color: white;
+    font-family: Google Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+  }
+  /* When you mouse over the container, fade in the overlay title */
+  .container:hover .overlay {
+    opacity: 100;
+  }
+
+  .border {
+    width: 1518px;
+  height: 65px;
+  background: #2F2726;
+  mix-blend-mode: normal;
+  box-shadow: 0px 6px 4px rgba(0, 0, 0, 0.5);
+  position: fixed;
+  z-index: 10;
+  }
+
+  .image-position {
+    position: absolute;
+    left: 110px;
+    top: 8px;
+    background: url(.png);
+    z-index: 10;
+    position: fixed;
+  }
+
+  .a{
+    position: absolute;
+    width: 61px;
+    height: 28px;
+    left: 1110px;
+    top: 20px;
+    font-family: Google Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 28px;
+    color: #ffff;
+    z-index: 10;
+    position: fixed;
+  }
+
+  .b {
+    position: absolute;
+    width: 67px;
+    height: 28px;
+    left: 1230px;
+    top: 20px;
+    font-family: Google Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 28px;
+    color: #ffff;
+    z-index: 10;
+    position: fixed;
+  }
+
+  .c {
+    position: absolute;
+  width: 40px;
+  height: 28px;
+  left: 1340px;
+  top: 20px;
+  font-family: Google Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 28px;
+  color: #CC313D;
+  z-index: 10;
+  position: fixed;
+  }
+
+  .gbot_header{
+    position: absolute;
+    left: 370px;
+    top: 126px;
+
+    font-family: Google Sans;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 73px;
+
+letter-spacing: -0.02em;
+
+color: #000000;
+  }
+
+  .gbot_sheader{
+    position: absolute;
+left: 525px;
+top: 219px;
+font-family: Google Sans;
+font-style: normal;
+font-weight: 400;
+font-size: 30px;
+line-height: 36px;
+letter-spacing: -0.02em;
+
+color: #000000;
+
+  }
+  .container {
+	display: flex;
+  justify-content: center;
+	align-items: center;
+	width: 100%;
+	height: 100%;
+
+
+}
+
+.container1 {
+  margin-top: -34em;
+  display: flex;
+justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+.chat {
+	margin-left:10em;
+	margin-right:-15em;
+	height: 400px;
+	width: 830px;
+	display: flex;
+	flex-direction: column;
+  justify-content: center;
+	align-items: center;
+
+}
+
+::-webkit-input-placeholder {
+	color: .711
+}
+
+input {
+	border: 0;
+	padding: 15px;
+	margin-left: auto;
+	border-radius: 15px;
+	border: 2px solid black;
+}
+
+.messages {
+	display: flex;
+	flex-direction: column;
+	overflow: scroll;
+	height: 90%;
+	width: 100%;
+	background-color: white;
+	padding: 15px;
+	margin: 15px;
+	border-radius: 15px;
+	border: 2px solid black;
+	box-shadow: 0px 6px 4px rgba(0, 0, 0, 0.5);
+}
+
+#bot {
+	margin-left: auto;
+
+}
+
+.bot {
+  position: relative;
+ left: -20em;
+}
+
+.avatar {
+	height: 25px;
+}
+
+.response {
+	display: flex;
+	align-items: center;
+	margin: 1%;
+}
+
+  .bg-gradient2{
+    position: absolute;
+    width: 1518px;
+    height: 240px;
+    left: 0px;
+    top: 1000px;
+    background: linear-gradient(96.58deg, #2F2726 -1.27%, #732113 90.44%);
+  }
+
+  .image-position2{
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    left: 95px;
+    top: 1025px;
+    background: url(TUP-GOOGLER-LOGO.png);
+    z-index: 11;
+  }
+
+  .Footer_content{
+    position: absolute;
+    width: 82px;
+    height: 82px;
+    left: 45px;
+    top: 1000px;
+  }
+
+  .googler{
+    position: absolute;
+    width: 166px;
+    height: 38px;
+    left: 120px;
+    top: 42px;
+    font-family: Google Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 26px;
+    line-height: 38px;
+    letter-spacing: -0.02em;
+    color: #CC313D;
+  }
+
+  .footerhome{
+    position: absolute;
+    width: 64px;
+    height: 31px;
+    left: 168px;
+    top: 85px;
+    font-family: Google Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 31px;
+    letter-spacing: -0.02em;
+    color: #ffff;
+  }
+
+  .footerabout{
+    position: absolute;
+    width: 65px;
+    height: 31px;
+    left: 168px;
+    top: 125px;
+    font-family: Google Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 31px;
+    letter-spacing: -0.02em;
+    color: #ffff;
+  }
+
+  .footerfaq{
+    position: absolute;
+    width: 46px;
+    height: 31px;
+    left: 178px;
+    top: 165px;
+    font-family: Google Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 31px;
+    letter-spacing: -0.02em;
+    color: #CC313D;
+  }
+
+  .footerevents{
+    position: absolute;
+    width: 70px;
+    height: 31px;
+    left: 168px;
+    top: 200px;
+    font-family: Google Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 31px;
+    letter-spacing: -0.02em;
+    color: #ffff;
+  }
+
+  .footercontact{
+    position: absolute;
+    width: 142px;
+    height: 38px;
+    left: 600px;
+    top: 60px;
+    font-family: Google Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 38px;
+    letter-spacing: -0.02em;
+    color: #ffff;
+  }
+
+  .footernum{
+    position: absolute;
+    width: 64px;
+    height: 31px;
+    left: 597px;
+    top: 119px;
+    font-family: Google Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 31px;
+    letter-spacing: -0.02em;
+    color: #ffff;
+  }
+
+  .footeremail{
+    position: absolute;
+    left: 555px;
+    top: 155px;
+    font-family: Google Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 31px;
+    letter-spacing: -0.02em;
+    color: #ffff;
+  }
+
+  @keyframes slideIn {
+    0% {
+      transform: translateX(500px) scale(.2);
+    }
+    100% {
+      transform: translateX(0px) scale(1);
+    }
+  }
+
+  @keyframes slideUp {
+    0% {
+      transform: translateY(300px);
+    }
+    100% {
+      transform: translateY(0px);
+    }
+  }
+
+  @keyframes expand {
+    0% {
+      transform: translateX(1400px);
+    }
+    100% {
+      transform: translateX(0px);
+    }
+  }
